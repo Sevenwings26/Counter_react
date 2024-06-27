@@ -1,0 +1,29 @@
+.box {
+    background-color: rgb(4, 4, 156);
+    width: 80%;
+    padding: 1rem;
+    margin: auto;
+    color: azure;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 20px;
+}
+
+button {
+    padding: 0.6rem;
+    border: none;
+    margin: 1rem 1rem;
+    border-radius: 20px;
+}
+
+@media screen and (max-width:500px) {
+    .box{
+        width: 100%;
+        /* max-width: 700px; */
+    }
+}
+
+@media screen and (min-width:850px) {
+    .box{
+        max-width: 700px;
+    }
+}

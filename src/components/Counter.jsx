@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import "./css/style.css"
 
 function Counter() {
     const [count, setCounter] = useState(0);
@@ -14,7 +15,7 @@ function Counter() {
     }
 
   return (
-    <div>
+    <div className='box'>
         <h2>Count: {count}</h2>
         <p>Click on either of the buttons to count up or down</p>
         <button onClick={increase}>Increase Count</button>
